@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Easy</title>
+    <title>Easy Stage</title>
     <link href="style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
@@ -51,6 +51,7 @@
             <input type="text" maxlength="5" minlength="5">
             <button>Enter!</button>
             <button onClick="window.location.reload();">Restart</button>
+            <h2> <a href="welcome.html"> Home Page</a> </h2>
 
         </div>
         <p id="game-over"></p>
@@ -58,7 +59,7 @@
 </div>
 </body>
 <script>
-    const wordList = ["LEMON", "GREEN", "BOOKS", "TOKEN","SOUND","CRAZY","KITTY","NAILS","MOUSE","TIGER"];
+    const wordList = ["BLAZE", "MOUSE", "TRIBE", "ANIME","FORCE","GLOVE","JUICE","HOUSE","PLANE","SLAVE"];
     const randomNumber = Math.floor(Math.random() * wordList.length);
     const answer = wordList[randomNumber]; //make this random word
     const board = document.getElementById('board');
